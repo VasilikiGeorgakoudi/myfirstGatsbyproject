@@ -1,0 +1,33 @@
+.posts{
+    list-style-type: none;
+    margin:0;
+}
+
+.post{
+    margin:3rem 0;
+    box-shadow: 2px 2px 2px 2px gray;
+    padding:1rem;
+    padding-bottom: 2.3rem;
+
+
+    a{
+        background-color:rgba(81, 189, 216, 0.514);
+        color:black;
+        text-decoration: none;
+        display: block;
+        padding:1rem;
+    }
+    small{
+        background-color:green;
+        font-style: italic;
+        padding:0.18rem;
+        padding-bottom: 0.1rem;
+    }
+    
+    
+    
+}
+.post:hover{
+    zoom:110%;
+    cursor:pointer;
+}
